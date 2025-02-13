@@ -1,0 +1,22 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 85% 5%;
+    gap: 3px;
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+header, footer, main {
+    margin: 0;
+    padding: 0;
+    grid: span 1;
+    border: 1px solid black;
+}
