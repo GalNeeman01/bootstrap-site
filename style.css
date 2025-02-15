@@ -10,13 +10,19 @@ html, body {
     grid-template-rows: 10% 85% 5%;
     gap: 3px;
     height: 100%;
-    margin: 0;
-    padding: 5px;
+    padding: 0;
 }
 
-header, footer, main {
+main {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0 0 0;
+}
+
+header, footer {
     margin: 0;
+    height: fit-content;
     padding: 0;
     grid: span 1;
-    border: 1px solid black;
 }
